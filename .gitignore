@@ -1,0 +1,17 @@
+# Terraform provider build artifacts
+bin/
+dist/
+*.test
+*.out
+coverage.*
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
